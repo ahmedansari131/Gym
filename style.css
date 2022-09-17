@@ -1,0 +1,813 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background: rgb(18, 18, 18);
+}
+
+/* Header SEction */
+
+.section1::before {
+    content: '';
+    background: url('/bg/wallpaperflare.com_wallpaper.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    opacity: .2;
+}
+
+.section1{
+    /* width: 100%; */
+    /* background-color: yellow; */
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    /* position: fixed; */
+    margin-right: 2em;
+    margin-left: 2em;
+    /* background-color: yellow; */
+    margin-top: .6em;
+}
+
+.logo{
+    font-size: 4rem;
+    color: #bf1e2e;
+}
+
+.search{
+    font-size: 2rem;
+    color: #bf1e2e;
+    cursor: pointer;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .9);
+    position: relative;
+    z-index: 2;
+    padding: .7rem 1.7rem;
+    font-size: 1.5rem;
+    transition: all ease .2s;
+    margin: 0 .3em 0 .3em;
+    user-select: none;
+}
+
+.links a:hover {
+    background-color: #bf1e2e;
+    border-radius: 3px;
+    color: white;
+}
+
+.navigation .sticky{
+    background-color: #bf1e2e;
+}
+
+.btn {
+    margin-top: 30px;
+    /* margin-left: 185px; */
+}
+
+.btn input {
+    padding: 10px 0px;
+    border: none;
+    margin-left: 30px;
+    font-size: 1.1rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    width: 90px;
+    background-color: #bf1e2e;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease .3s;
+
+}
+
+.btn input:hover {
+    background-color: white;
+    color: black;
+    /* transform: scale(1.1); */
+    font-weight: bold;
+    outline: none;
+}
+
+
+/* Head Section */
+
+.container {
+    width: 35%;
+    margin-left: 100px;
+    margin-top: 225px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color: #bf1e2e;
+    /* background-color: antiquewhite; */
+}
+
+.heading h1 {
+    font-size: 4.3rem;
+    cursor: default;
+}
+
+#heading2 h1 {
+    cursor: default;
+    font-size: 2rem;
+    margin-top: 5px;
+    color: #bf1e2e;
+    opacity: .7;
+}
+
+.contact {
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.contact input {
+    width: 200px;
+    margin-left: -38px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+/* About Section */
+
+#about .container {
+    width: 87%;
+    margin-left: 100px;
+    margin-top: 45px;
+    height: 100%;
+    border-top: 1px solid rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.sub h4 {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    position: relative;
+    padding-top: 50px;
+    cursor: default;
+    text-align: center;
+}
+
+.main h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: #bf1e2e;
+    font-size: 2.5rem;
+    cursor: default;
+    text-align: center;
+}
+
+#about .container .para p {
+    color: white;
+    text-align: left;
+    font-size: 1.3rem;
+    margin-left: 100px;
+}
+
+.name {
+    font-size: 1.8rem;
+    color: #bf1e2e;
+    position: relative;
+    bottom: 100px;
+    margin-left: 197px;
+    cursor: default;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.small {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    position: relative;
+    bottom: 90px;
+    color: #bf1e2e;
+    opacity: .5;
+    cursor: default;
+    margin-left: 270px;
+}
+
+.box {
+    display: flex;
+    position: relative;
+    bottom: 80px;
+    margin-left: 253px;
+}
+
+.box .social {
+    padding: 10px;
+}
+
+.box a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #bf1e2e;
+    opacity: .8;
+}
+
+.container .para i {
+    color: #bf1e2e;
+    font-size: 2rem;
+}
+
+#about .container img {
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 100px;
+    border-radius: 20px;
+    border: 3px solid rgba(255, 255, 255);
+}
+
+
+/* Service Section */
+
+#services {
+    /* border-top: 1px solid rgba(255, 255, 255, .7); */
+    padding-top: 30px;
+}
+
+.sub1 h4 {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    position: relative;
+    padding-top: 30px;
+    cursor: default;
+    text-align: center;
+}
+
+.main1 h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: #bf1e2e;
+    font-size: 2.5rem;
+    cursor: default;
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto 0 auto;
+    border-top: 1px solid rgba(255, 255, 255, .4);
+    padding-top: 60px;
+}
+
+.container1 .cards {
+    border: 1px solid rgba(255, 255, 255, .7);
+    margin: 20px 20px 120px 20px;
+    padding: 20px;
+}
+
+.container1 .cards .head {
+    text-align: center;
+}
+
+.container1 .cards img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+}
+
+.container1 .foot h3 {
+    font-size: 1.8rem;
+    font-family: 'Work Sans', sans-serif;
+    color: #bf1e2e;
+}
+
+.container1 .foot {
+    padding: 20px 0px;
+}
+
+.container1 p {
+    padding: 25px 0;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    line-height: 20px;
+}
+
+.container1 p i {
+    font-size: 1.5rem;
+    color: #bf1e2e;
+    font-weight: bold;
+}
+
+.cards .enroll input {
+    background-color: #bf1e2e;
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    font-size: 18px;
+    border-radius: 3px;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 105px;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+.cards .enroll input:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Trainer Section */
+.sub2 h4 {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    position: relative;
+    padding-top: 60px;
+    cursor: default;
+    text-align: center;
+}
+
+.main2 h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: #bf1e2e;
+    font-size: 2.5rem;
+    cursor: default;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto 0 auto;
+    border-top: 1px solid rgba(255, 255, 255, .4);
+    padding-top: 60px;
+}
+
+.container2 .cards {
+    border: 1px solid rgba(255, 255, 255, .7);
+    margin: 20px 20px 120px 20px;
+    padding: 20px;
+}
+
+.container2 .cards .head {
+    text-align: center;
+}
+
+.container2 .cards img {
+    height: 100%;
+    width: 100%;
+}
+
+.container2 .foot h3 {
+    font-size: 1.8rem;
+    font-family: 'Work Sans', sans-serif;
+    color: #bf1e2e;
+    padding-top: 10px;
+}
+
+.container2 .role h4 {
+    font-size: 20px;
+    padding: 10px 0;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    line-height: 20px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+}
+
+.box1 a {
+    color: #bf1e2e;
+    text-decoration: none;
+    padding: 10px 7px;
+    font-size: 22px;
+}
+
+.join input {
+    background-color: #bf1e2e;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 3px;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 117px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    transition: .5s;
+}
+
+.join input:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Pricing Section */
+
+.sub3 h4 {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    position: relative;
+    padding-top: 30px;
+    cursor: default;
+    text-align: center;
+}
+
+.main3 h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: #bf1e2e;
+    font-size: 2.5rem;
+    cursor: default;
+    text-align: center;
+}
+
+.container3 {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto 0 auto;
+    border-top: 1px solid rgba(255, 255, 255, .4);
+    padding-top: 60px;
+}
+
+.container3 .cards {
+    border: 1px solid rgba(255, 255, 255, .7);
+    margin: 20px 20px 120px 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container3 .cards .head h2 {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container3 .cards .body {
+    margin: 15px;
+}
+
+.container3 .cards .body p {
+    font-family: 'Work Sans', sans-serif;
+    opacity: .8;
+}
+
+.container3 .cards .body sup {
+    font-size: 1.5rem;
+    color: #bf1e2e;
+}
+
+.container3 .cards .body sub {
+    font-size: 1.3rem;
+    color: #bf1e2e;
+    position: relative;
+    top: 12px;
+}
+
+.container3 .cards .body span {
+    font-size: 3rem;
+    color: white;
+    margin-left: 8px;
+    position: relative;
+    top: 10px;
+}
+
+.container3 .cards .body p {
+    color: #bf1e2e;
+    margin-top: 25px;
+    font-size: 1.3rem;
+}
+
+.choose input {
+    background-color: #bf1e2e;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 3px;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    transition: .5s;
+}
+
+.choose input:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Product Section */
+
+#Products {
+    border-top: 1px solid rgba(255, 255, 255, .7);
+    /* padding-top: 30px; */
+}
+
+.container4 {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto 0 auto;
+    border-top: 1px solid rgba(255, 255, 255, .4);
+    padding-top: 60px;
+}
+
+.container4 .cards {
+    border: 1px solid rgba(255, 255, 255, .7);
+    margin: 20px 20px 120px 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container4 .cards .pro-img img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+
+.container4 .cards .pro-name h2 {
+    color: white;
+    padding-top: 10px;
+    font-family: 'Work Sans', sans-serif;
+    cursor: default;
+    font-size: 2rem;
+}
+
+.container4 .cards .star a {
+    text-decoration: none;
+    color: #bf1e2e;
+    padding-top: 10px;
+}
+
+.container4 .cards .pro-price {
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container4 span {
+    color: #bf1e2e;
+}
+
+.purchase input {
+    background-color: #bf1e2e;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 3px;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    transition: .5s;
+}
+
+.purchase input:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Review Section */
+
+#Reviews {
+    /* border-top: 1px solid rgba(255, 255, 255, .7); */
+    padding-top: 30px;
+}
+
+.container5 {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto 0 auto;
+    border-top: 1px solid rgba(255, 255, 255, .4);
+    padding-top: 60px;
+}
+
+.container5 .cards {
+    border: 1px solid rgba(255, 255, 255, .7);
+    margin: 20px 20px 120px 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container5 .cards .client img {
+    height: 100%;
+    width: 100%;
+}
+
+.container5 .cards .feedback {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.container5 .cards .client-name h2 {
+    color: #bf1e2e;
+    padding-top: 10px;
+    font-family: 'Work Sans', sans-serif;
+    cursor: default;
+    font-size: 2rem;
+}
+
+.container5 .cards .client-role h3 {
+    color: rgba(191, 30, 46, .5);
+    cursor: default;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#footer {
+    /* border-top: 1px solid rgba(255, 255, 255, .7); */
+    padding-top: 30px;
+}
+
+.container6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    margin-left: 50px;
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.container6 .box4 .foot-right {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px 15px 0 15px;
+    text-align: left;
+}
+
+.container6 .box4 .foot-right span {
+    color: #bf1e2e;
+    font-size: 1.1rem;
+}
+
+.container6 .box3 .foot-para p {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    padding: 20px 15px;
+}
+
+.container6 .foot-head h1 {
+    color: #bf1e2e;
+    font-size: 2.5rem;
+    font-family: 'Work Sans', sans-serif;
+    padding: 15px;
+    cursor: default;
+    margin-bottom: 10px;
+}
+
+.container6 .foot-address p {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.box3 {
+    text-align: center;
+    width: 50%;
+    margin-right: 50px;
+}
+
+.box3 .foot-form input {
+    font-family: 'Work Sans', sans-serif;
+    padding: 8px;
+    margin: 7px;
+    width: 400px;
+    outline: none;
+}
+
+.box3 .foot-form .textarea textarea {
+    font-family: 'Work Sans', sans-serif;
+    width: 400px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 6px;
+    border: none;
+    outline: none;
+    overflow-x: hidden;
+    resize: none;
+}
+
+.box3 .foot-form .submit input {
+    background-color: #bf1e2e;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 50px;
+    color: white;
+    transition: all .4s ease;
+}
+
+.box3 .foot-form .submit input:hover {
+    background-color: white;
+    color: black;
+}
+
+.box5 {
+    display: flex;
+}
+
+.box5 a {
+    margin: 10px;
+    text-decoration: none;
+    color: #bf1e2e;
+    font-size: 1.4rem;
+    position: relative;
+    top: 30px;
+    left: 6px;
+}
+
+#contact {
+    position: relative;
+    top: 100px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    background-color: rgb(12, 12, 12);
+    cursor: default;
+    font-size: .9rem;
+}
