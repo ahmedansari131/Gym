@@ -98,14 +98,13 @@ body {
     color: white;
     border-radius: 3px;
     font-weight: bold;
-    transition: all ease .3s;
+    transition: all .2s ease;
+
 
 }
 
 .btn input:hover {
-    background-color: white;
-    color: black;
-    /* transform: scale(1.1); */
+    background-color: #7c151f;
     font-weight: bold;
     outline: none;
 }
@@ -327,12 +326,12 @@ body {
     cursor: pointer;
     margin-left: 105px;
     margin-bottom: 10px;
-    transition: .5s;
+    transition: all .2s ease;
+
 }
 
 .cards .enroll input:hover {
-    background-color: white;
-    color: black;
+    background-color: #7c151f;
 }
 
 
@@ -420,12 +419,12 @@ body {
     margin-left: 117px;
     margin-top: 10px;
     margin-bottom: 5px;
-    transition: .5s;
+    transition: all .2s ease;
+
 }
 
 .join input:hover {
-    background-color: white;
-    color: black;
+    background-color: #7c151f;
 }
 
 
@@ -528,12 +527,12 @@ body {
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 5px;
-    transition: .5s;
+    transition: all .2s ease;
+
 }
 
 .choose input:hover {
-    background-color: white;
-    color: black;
+    background-color: #7c151f;
 }
 
 
@@ -610,12 +609,11 @@ body {
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 5px;
-    transition: .5s;
+    transition: all .2s ease;
 }
 
 .purchase input:hover {
-    background-color: white;
-    color: black;
+    background-color: #7c151f;
 }
 
 
@@ -743,10 +741,13 @@ body {
 
 .box3 .foot-form input {
     font-family: 'Work Sans', sans-serif;
-    padding: 8px;
+    padding: 10px;
     margin: 7px;
     width: 400px;
     outline: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
 }
 
 .box3 .foot-form .textarea textarea {
@@ -759,6 +760,8 @@ body {
     outline: none;
     overflow-x: hidden;
     resize: none;
+    border-radius: 5px;
+
 }
 
 .box3 .foot-form .submit input {
@@ -769,17 +772,16 @@ body {
     font-family: 'Work Sans', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
     height: 50px;
     color: white;
-    transition: all .4s ease;
+    transition: all .2s ease;
 }
 
 .box3 .foot-form .submit input:hover {
-    background-color: white;
-    color: black;
+    background-color: #7c151f;
 }
 
 .box5 {
