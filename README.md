@@ -1,4 +1,4 @@
-# Gym
+# Gym Webpage
 ![Home Page](https://user-images.githubusercontent.com/111533883/210230551-291c4e21-8eb5-47c7-9143-6cf52424b92c.jpg)
 ![About Page](https://user-images.githubusercontent.com/111533883/210230581-91591edc-21d8-4864-9ccd-8a4555aaed03.jpg)
 ![Service Page](https://user-images.githubusercontent.com/111533883/210230593-2c9b41ad-197f-462d-93f1-fd36bce502a6.jpg)
